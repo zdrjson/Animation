@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5C3D62B1CDBA57700260916 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C3D62A1CDBA57700260916 /* main.m */; };
+		F5C3D62E1CDBA57700260916 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C3D62D1CDBA57700260916 /* AppDelegate.m */; };
+		F5C3D6311CDBA57700260916 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C3D6301CDBA57700260916 /* ViewController.m */; };
+		F5C3D6341CDBA57700260916 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5C3D6321CDBA57700260916 /* Main.storyboard */; };
+		F5C3D6371CDBA57700260916 /* JumpStarDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F5C3D6351CDBA57700260916 /* JumpStarDemo.xcdatamodeld */; };
+		F5C3D6391CDBA57700260916 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5C3D6381CDBA57700260916 /* Assets.xcassets */; };
+		F5C3D63C1CDBA57700260916 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5C3D63A1CDBA57700260916 /* LaunchScreen.storyboard */; };
+		F5C3D6471CDBA57700260916 /* JumpStarDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C3D6461CDBA57700260916 /* JumpStarDemoTests.m */; };
+		F5C3D6521CDBA57700260916 /* JumpStarDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C3D6511CDBA57700260916 /* JumpStarDemoUITests.m */; };
+		F5C3D6611CDBAA7600260916 /* JumpStarView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C3D6601CDBAA7600260916 /* JumpStarView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5C3D6431CDBA57700260916 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5C3D61E1CDBA57700260916 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5C3D6251CDBA57700260916;
+			remoteInfo = JumpStarDemo;
+		};
+		F5C3D64E1CDBA57700260916 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5C3D61E1CDBA57700260916 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5C3D6251CDBA57700260916;
+			remoteInfo = JumpStarDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F5C3D6261CDBA57700260916 /* JumpStarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JumpStarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5C3D62A1CDBA57700260916 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F5C3D62C1CDBA57700260916 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F5C3D62D1CDBA57700260916 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F5C3D62F1CDBA57700260916 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F5C3D6301CDBA57700260916 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F5C3D6331CDBA57700260916 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5C3D6361CDBA57700260916 /* JumpStarDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JumpStarDemo.xcdatamodel; sourceTree = "<group>"; };
+		F5C3D6381CDBA57700260916 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5C3D63B1CDBA57700260916 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5C3D63D1CDBA57700260916 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5C3D6421CDBA57700260916 /* JumpStarDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JumpStarDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5C3D6461CDBA57700260916 /* JumpStarDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JumpStarDemoTests.m; sourceTree = "<group>"; };
+		F5C3D6481CDBA57700260916 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5C3D64D1CDBA57700260916 /* JumpStarDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JumpStarDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5C3D6511CDBA57700260916 /* JumpStarDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JumpStarDemoUITests.m; sourceTree = "<group>"; };
+		F5C3D6531CDBA57700260916 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5C3D65F1CDBAA7600260916 /* JumpStarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JumpStarView.h; sourceTree = "<group>"; };
+		F5C3D6601CDBAA7600260916 /* JumpStarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JumpStarView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5C3D6231CDBA57700260916 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5C3D63F1CDBA57700260916 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5C3D64A1CDBA57700260916 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5C3D61D1CDBA57600260916 = {
+			isa = PBXGroup;
+			children = (
+				F5C3D6281CDBA57700260916 /* JumpStarDemo */,
+				F5C3D6451CDBA57700260916 /* JumpStarDemoTests */,
+				F5C3D6501CDBA57700260916 /* JumpStarDemoUITests */,
+				F5C3D6271CDBA57700260916 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5C3D6271CDBA57700260916 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5C3D6261CDBA57700260916 /* JumpStarDemo.app */,
+				F5C3D6421CDBA57700260916 /* JumpStarDemoTests.xctest */,
+				F5C3D64D1CDBA57700260916 /* JumpStarDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5C3D6281CDBA57700260916 /* JumpStarDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F5C3D62C1CDBA57700260916 /* AppDelegate.h */,
+				F5C3D62D1CDBA57700260916 /* AppDelegate.m */,
+				F5C3D62F1CDBA57700260916 /* ViewController.h */,
+				F5C3D6301CDBA57700260916 /* ViewController.m */,
+				F5C3D65F1CDBAA7600260916 /* JumpStarView.h */,
+				F5C3D6601CDBAA7600260916 /* JumpStarView.m */,
+				F5C3D6321CDBA57700260916 /* Main.storyboard */,
+				F5C3D6381CDBA57700260916 /* Assets.xcassets */,
+				F5C3D63A1CDBA57700260916 /* LaunchScreen.storyboard */,
+				F5C3D63D1CDBA57700260916 /* Info.plist */,
+				F5C3D6351CDBA57700260916 /* JumpStarDemo.xcdatamodeld */,
+				F5C3D6291CDBA57700260916 /* Supporting Files */,
+			);
+			path = JumpStarDemo;
+			sourceTree = "<group>";
+		};
+		F5C3D6291CDBA57700260916 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5C3D62A1CDBA57700260916 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5C3D6451CDBA57700260916 /* JumpStarDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5C3D6461CDBA57700260916 /* JumpStarDemoTests.m */,
+				F5C3D6481CDBA57700260916 /* Info.plist */,
+			);
+			path = JumpStarDemoTests;
+			sourceTree = "<group>";
+		};
+		F5C3D6501CDBA57700260916 /* JumpStarDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F5C3D6511CDBA57700260916 /* JumpStarDemoUITests.m */,
+				F5C3D6531CDBA57700260916 /* Info.plist */,
+			);
+			path = JumpStarDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5C3D6251CDBA57700260916 /* JumpStarDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5C3D6561CDBA57700260916 /* Build configuration list for PBXNativeTarget "JumpStarDemo" */;
+			buildPhases = (
+				F5C3D6221CDBA57700260916 /* Sources */,
+				F5C3D6231CDBA57700260916 /* Frameworks */,
+				F5C3D6241CDBA57700260916 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JumpStarDemo;
+			productName = JumpStarDemo;
+			productReference = F5C3D6261CDBA57700260916 /* JumpStarDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5C3D6411CDBA57700260916 /* JumpStarDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5C3D6591CDBA57700260916 /* Build configuration list for PBXNativeTarget "JumpStarDemoTests" */;
+			buildPhases = (
+				F5C3D63E1CDBA57700260916 /* Sources */,
+				F5C3D63F1CDBA57700260916 /* Frameworks */,
+				F5C3D6401CDBA57700260916 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5C3D6441CDBA57700260916 /* PBXTargetDependency */,
+			);
+			name = JumpStarDemoTests;
+			productName = JumpStarDemoTests;
+			productReference = F5C3D6421CDBA57700260916 /* JumpStarDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F5C3D64C1CDBA57700260916 /* JumpStarDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5C3D65C1CDBA57700260916 /* Build configuration list for PBXNativeTarget "JumpStarDemoUITests" */;
+			buildPhases = (
+				F5C3D6491CDBA57700260916 /* Sources */,
+				F5C3D64A1CDBA57700260916 /* Frameworks */,
+				F5C3D64B1CDBA57700260916 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5C3D64F1CDBA57700260916 /* PBXTargetDependency */,
+			);
+			name = JumpStarDemoUITests;
+			productName = JumpStarDemoUITests;
+			productReference = F5C3D64D1CDBA57700260916 /* JumpStarDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5C3D61E1CDBA57700260916 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = JsonZhang;
+				TargetAttributes = {
+					F5C3D6251CDBA57700260916 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					F5C3D6411CDBA57700260916 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F5C3D6251CDBA57700260916;
+					};
+					F5C3D64C1CDBA57700260916 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F5C3D6251CDBA57700260916;
+					};
+				};
+			};
+			buildConfigurationList = F5C3D6211CDBA57700260916 /* Build configuration list for PBXProject "JumpStarDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5C3D61D1CDBA57600260916;
+			productRefGroup = F5C3D6271CDBA57700260916 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5C3D6251CDBA57700260916 /* JumpStarDemo */,
+				F5C3D6411CDBA57700260916 /* JumpStarDemoTests */,
+				F5C3D64C1CDBA57700260916 /* JumpStarDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5C3D6241CDBA57700260916 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5C3D63C1CDBA57700260916 /* LaunchScreen.storyboard in Resources */,
+				F5C3D6391CDBA57700260916 /* Assets.xcassets in Resources */,
+				F5C3D6341CDBA57700260916 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5C3D6401CDBA57700260916 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5C3D64B1CDBA57700260916 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5C3D6221CDBA57700260916 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5C3D6371CDBA57700260916 /* JumpStarDemo.xcdatamodeld in Sources */,
+				F5C3D6311CDBA57700260916 /* ViewController.m in Sources */,
+				F5C3D62E1CDBA57700260916 /* AppDelegate.m in Sources */,
+				F5C3D62B1CDBA57700260916 /* main.m in Sources */,
+				F5C3D6611CDBAA7600260916 /* JumpStarView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5C3D63E1CDBA57700260916 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5C3D6471CDBA57700260916 /* JumpStarDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5C3D6491CDBA57700260916 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5C3D6521CDBA57700260916 /* JumpStarDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5C3D6441CDBA57700260916 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5C3D6251CDBA57700260916 /* JumpStarDemo */;
+			targetProxy = F5C3D6431CDBA57700260916 /* PBXContainerItemProxy */;
+		};
+		F5C3D64F1CDBA57700260916 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5C3D6251CDBA57700260916 /* JumpStarDemo */;
+			targetProxy = F5C3D64E1CDBA57700260916 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5C3D6321CDBA57700260916 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5C3D6331CDBA57700260916 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5C3D63A1CDBA57700260916 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5C3D63B1CDBA57700260916 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5C3D6541CDBA57700260916 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5C3D6551CDBA57700260916 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5C3D6571CDBA57700260916 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JumpStarDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zdrzdr.github.com.JumpStarDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F5C3D6581CDBA57700260916 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JumpStarDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zdrzdr.github.com.JumpStarDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F5C3D65A1CDBA57700260916 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JumpStarDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zdrzdr.github.com.JumpStarDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JumpStarDemo.app/JumpStarDemo";
+			};
+			name = Debug;
+		};
+		F5C3D65B1CDBA57700260916 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JumpStarDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zdrzdr.github.com.JumpStarDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JumpStarDemo.app/JumpStarDemo";
+			};
+			name = Release;
+		};
+		F5C3D65D1CDBA57700260916 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JumpStarDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zdrzdr.github.com.JumpStarDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JumpStarDemo;
+			};
+			name = Debug;
+		};
+		F5C3D65E1CDBA57700260916 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JumpStarDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zdrzdr.github.com.JumpStarDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JumpStarDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5C3D6211CDBA57700260916 /* Build configuration list for PBXProject "JumpStarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5C3D6541CDBA57700260916 /* Debug */,
+				F5C3D6551CDBA57700260916 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5C3D6561CDBA57700260916 /* Build configuration list for PBXNativeTarget "JumpStarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5C3D6571CDBA57700260916 /* Debug */,
+				F5C3D6581CDBA57700260916 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F5C3D6591CDBA57700260916 /* Build configuration list for PBXNativeTarget "JumpStarDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5C3D65A1CDBA57700260916 /* Debug */,
+				F5C3D65B1CDBA57700260916 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F5C3D65C1CDBA57700260916 /* Build configuration list for PBXNativeTarget "JumpStarDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5C3D65D1CDBA57700260916 /* Debug */,
+				F5C3D65E1CDBA57700260916 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F5C3D6351CDBA57700260916 /* JumpStarDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F5C3D6361CDBA57700260916 /* JumpStarDemo.xcdatamodel */,
+			);
+			currentVersion = F5C3D6361CDBA57700260916 /* JumpStarDemo.xcdatamodel */;
+			path = JumpStarDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F5C3D61E1CDBA57700260916 /* Project object */;
+}
