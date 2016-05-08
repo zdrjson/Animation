@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F535338A1CDF64E900E79155 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F53533891CDF64E900E79155 /* main.m */; };
+		F535338D1CDF64E900E79155 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F535338C1CDF64E900E79155 /* AppDelegate.m */; };
+		F53533901CDF64EA00E79155 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F535338F1CDF64E900E79155 /* ViewController.m */; };
+		F53533931CDF64EA00E79155 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F53533911CDF64EA00E79155 /* Main.storyboard */; };
+		F53533961CDF64EA00E79155 /* CircleLoadingAnimaton.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F53533941CDF64EA00E79155 /* CircleLoadingAnimaton.xcdatamodeld */; };
+		F53533981CDF64EA00E79155 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F53533971CDF64EA00E79155 /* Assets.xcassets */; };
+		F535339B1CDF64EA00E79155 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F53533991CDF64EA00E79155 /* LaunchScreen.storyboard */; };
+		F53533A61CDF64EA00E79155 /* CircleLoadingAnimatonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F53533A51CDF64EA00E79155 /* CircleLoadingAnimatonTests.m */; };
+		F53533B11CDF64EA00E79155 /* CircleLoadingAnimatonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F53533B01CDF64EA00E79155 /* CircleLoadingAnimatonUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F53533A21CDF64EA00E79155 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F535337D1CDF64E900E79155 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F53533841CDF64E900E79155;
+			remoteInfo = CircleLoadingAnimaton;
+		};
+		F53533AD1CDF64EA00E79155 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F535337D1CDF64E900E79155 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F53533841CDF64E900E79155;
+			remoteInfo = CircleLoadingAnimaton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F53533851CDF64E900E79155 /* CircleLoadingAnimaton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircleLoadingAnimaton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F53533891CDF64E900E79155 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F535338B1CDF64E900E79155 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F535338C1CDF64E900E79155 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F535338E1CDF64E900E79155 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F535338F1CDF64E900E79155 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F53533921CDF64EA00E79155 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F53533951CDF64EA00E79155 /* CircleLoadingAnimaton.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CircleLoadingAnimaton.xcdatamodel; sourceTree = "<group>"; };
+		F53533971CDF64EA00E79155 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F535339A1CDF64EA00E79155 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F535339C1CDF64EA00E79155 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F53533A11CDF64EA00E79155 /* CircleLoadingAnimatonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircleLoadingAnimatonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F53533A51CDF64EA00E79155 /* CircleLoadingAnimatonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleLoadingAnimatonTests.m; sourceTree = "<group>"; };
+		F53533A71CDF64EA00E79155 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F53533AC1CDF64EA00E79155 /* CircleLoadingAnimatonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircleLoadingAnimatonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F53533B01CDF64EA00E79155 /* CircleLoadingAnimatonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleLoadingAnimatonUITests.m; sourceTree = "<group>"; };
+		F53533B21CDF64EA00E79155 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F53533821CDF64E900E79155 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F535339E1CDF64EA00E79155 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F53533A91CDF64EA00E79155 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F535337C1CDF64E900E79155 = {
+			isa = PBXGroup;
+			children = (
+				F53533871CDF64E900E79155 /* CircleLoadingAnimaton */,
+				F53533A41CDF64EA00E79155 /* CircleLoadingAnimatonTests */,
+				F53533AF1CDF64EA00E79155 /* CircleLoadingAnimatonUITests */,
+				F53533861CDF64E900E79155 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F53533861CDF64E900E79155 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F53533851CDF64E900E79155 /* CircleLoadingAnimaton.app */,
+				F53533A11CDF64EA00E79155 /* CircleLoadingAnimatonTests.xctest */,
+				F53533AC1CDF64EA00E79155 /* CircleLoadingAnimatonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F53533871CDF64E900E79155 /* CircleLoadingAnimaton */ = {
+			isa = PBXGroup;
+			children = (
+				F535338B1CDF64E900E79155 /* AppDelegate.h */,
+				F535338C1CDF64E900E79155 /* AppDelegate.m */,
+				F535338E1CDF64E900E79155 /* ViewController.h */,
+				F535338F1CDF64E900E79155 /* ViewController.m */,
+				F53533911CDF64EA00E79155 /* Main.storyboard */,
+				F53533971CDF64EA00E79155 /* Assets.xcassets */,
+				F53533991CDF64EA00E79155 /* LaunchScreen.storyboard */,
+				F535339C1CDF64EA00E79155 /* Info.plist */,
+				F53533941CDF64EA00E79155 /* CircleLoadingAnimaton.xcdatamodeld */,
+				F53533881CDF64E900E79155 /* Supporting Files */,
+			);
+			path = CircleLoadingAnimaton;
+			sourceTree = "<group>";
+		};
+		F53533881CDF64E900E79155 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F53533891CDF64E900E79155 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F53533A41CDF64EA00E79155 /* CircleLoadingAnimatonTests */ = {
+			isa = PBXGroup;
+			children = (
+				F53533A51CDF64EA00E79155 /* CircleLoadingAnimatonTests.m */,
+				F53533A71CDF64EA00E79155 /* Info.plist */,
+			);
+			path = CircleLoadingAnimatonTests;
+			sourceTree = "<group>";
+		};
+		F53533AF1CDF64EA00E79155 /* CircleLoadingAnimatonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F53533B01CDF64EA00E79155 /* CircleLoadingAnimatonUITests.m */,
+				F53533B21CDF64EA00E79155 /* Info.plist */,
+			);
+			path = CircleLoadingAnimatonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F53533841CDF64E900E79155 /* CircleLoadingAnimaton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F53533B51CDF64EA00E79155 /* Build configuration list for PBXNativeTarget "CircleLoadingAnimaton" */;
+			buildPhases = (
+				F53533811CDF64E900E79155 /* Sources */,
+				F53533821CDF64E900E79155 /* Frameworks */,
+				F53533831CDF64E900E79155 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CircleLoadingAnimaton;
+			productName = CircleLoadingAnimaton;
+			productReference = F53533851CDF64E900E79155 /* CircleLoadingAnimaton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F53533A01CDF64EA00E79155 /* CircleLoadingAnimatonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F53533B81CDF64EA00E79155 /* Build configuration list for PBXNativeTarget "CircleLoadingAnimatonTests" */;
+			buildPhases = (
+				F535339D1CDF64EA00E79155 /* Sources */,
+				F535339E1CDF64EA00E79155 /* Frameworks */,
+				F535339F1CDF64EA00E79155 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F53533A31CDF64EA00E79155 /* PBXTargetDependency */,
+			);
+			name = CircleLoadingAnimatonTests;
+			productName = CircleLoadingAnimatonTests;
+			productReference = F53533A11CDF64EA00E79155 /* CircleLoadingAnimatonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F53533AB1CDF64EA00E79155 /* CircleLoadingAnimatonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F53533BB1CDF64EA00E79155 /* Build configuration list for PBXNativeTarget "CircleLoadingAnimatonUITests" */;
+			buildPhases = (
+				F53533A81CDF64EA00E79155 /* Sources */,
+				F53533A91CDF64EA00E79155 /* Frameworks */,
+				F53533AA1CDF64EA00E79155 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F53533AE1CDF64EA00E79155 /* PBXTargetDependency */,
+			);
+			name = CircleLoadingAnimatonUITests;
+			productName = CircleLoadingAnimatonUITests;
+			productReference = F53533AC1CDF64EA00E79155 /* CircleLoadingAnimatonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F535337D1CDF64E900E79155 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = JsonZhang;
+				TargetAttributes = {
+					F53533841CDF64E900E79155 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					F53533A01CDF64EA00E79155 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F53533841CDF64E900E79155;
+					};
+					F53533AB1CDF64EA00E79155 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F53533841CDF64E900E79155;
+					};
+				};
+			};
+			buildConfigurationList = F53533801CDF64E900E79155 /* Build configuration list for PBXProject "CircleLoadingAnimaton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F535337C1CDF64E900E79155;
+			productRefGroup = F53533861CDF64E900E79155 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F53533841CDF64E900E79155 /* CircleLoadingAnimaton */,
+				F53533A01CDF64EA00E79155 /* CircleLoadingAnimatonTests */,
+				F53533AB1CDF64EA00E79155 /* CircleLoadingAnimatonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F53533831CDF64E900E79155 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F535339B1CDF64EA00E79155 /* LaunchScreen.storyboard in Resources */,
+				F53533981CDF64EA00E79155 /* Assets.xcassets in Resources */,
+				F53533931CDF64EA00E79155 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F535339F1CDF64EA00E79155 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F53533AA1CDF64EA00E79155 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F53533811CDF64E900E79155 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F53533901CDF64EA00E79155 /* ViewController.m in Sources */,
+				F53533961CDF64EA00E79155 /* CircleLoadingAnimaton.xcdatamodeld in Sources */,
+				F535338D1CDF64E900E79155 /* AppDelegate.m in Sources */,
+				F535338A1CDF64E900E79155 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F535339D1CDF64EA00E79155 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F53533A61CDF64EA00E79155 /* CircleLoadingAnimatonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F53533A81CDF64EA00E79155 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F53533B11CDF64EA00E79155 /* CircleLoadingAnimatonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F53533A31CDF64EA00E79155 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F53533841CDF64E900E79155 /* CircleLoadingAnimaton */;
+			targetProxy = F53533A21CDF64EA00E79155 /* PBXContainerItemProxy */;
+		};
+		F53533AE1CDF64EA00E79155 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F53533841CDF64E900E79155 /* CircleLoadingAnimaton */;
+			targetProxy = F53533AD1CDF64EA00E79155 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F53533911CDF64EA00E79155 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F53533921CDF64EA00E79155 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F53533991CDF64EA00E79155 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F535339A1CDF64EA00E79155 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F53533B31CDF64EA00E79155 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F53533B41CDF64EA00E79155 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F53533B61CDF64EA00E79155 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CircleLoadingAnimaton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zdrzdr.github.com.CircleLoadingAnimaton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F53533B71CDF64EA00E79155 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CircleLoadingAnimaton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zdrzdr.github.com.CircleLoadingAnimaton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F53533B91CDF64EA00E79155 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CircleLoadingAnimatonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zdrzdr.github.com.CircleLoadingAnimatonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CircleLoadingAnimaton.app/CircleLoadingAnimaton";
+			};
+			name = Debug;
+		};
+		F53533BA1CDF64EA00E79155 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CircleLoadingAnimatonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zdrzdr.github.com.CircleLoadingAnimatonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CircleLoadingAnimaton.app/CircleLoadingAnimaton";
+			};
+			name = Release;
+		};
+		F53533BC1CDF64EA00E79155 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CircleLoadingAnimatonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zdrzdr.github.com.CircleLoadingAnimatonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CircleLoadingAnimaton;
+			};
+			name = Debug;
+		};
+		F53533BD1CDF64EA00E79155 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CircleLoadingAnimatonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zdrzdr.github.com.CircleLoadingAnimatonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CircleLoadingAnimaton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F53533801CDF64E900E79155 /* Build configuration list for PBXProject "CircleLoadingAnimaton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F53533B31CDF64EA00E79155 /* Debug */,
+				F53533B41CDF64EA00E79155 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F53533B51CDF64EA00E79155 /* Build configuration list for PBXNativeTarget "CircleLoadingAnimaton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F53533B61CDF64EA00E79155 /* Debug */,
+				F53533B71CDF64EA00E79155 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F53533B81CDF64EA00E79155 /* Build configuration list for PBXNativeTarget "CircleLoadingAnimatonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F53533B91CDF64EA00E79155 /* Debug */,
+				F53533BA1CDF64EA00E79155 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F53533BB1CDF64EA00E79155 /* Build configuration list for PBXNativeTarget "CircleLoadingAnimatonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F53533BC1CDF64EA00E79155 /* Debug */,
+				F53533BD1CDF64EA00E79155 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F53533941CDF64EA00E79155 /* CircleLoadingAnimaton.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F53533951CDF64EA00E79155 /* CircleLoadingAnimaton.xcdatamodel */,
+			);
+			currentVersion = F53533951CDF64EA00E79155 /* CircleLoadingAnimaton.xcdatamodel */;
+			path = CircleLoadingAnimaton.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F535337D1CDF64E900E79155 /* Project object */;
+}
