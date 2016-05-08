@@ -16,6 +16,14 @@
 		F51D4C881CD98F2100B7456B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F51D4C861CD98F2100B7456B /* LaunchScreen.storyboard */; };
 		F51D4C931CD98F2200B7456B /* TabBarItemAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F51D4C921CD98F2200B7456B /* TabBarItemAnimationTests.m */; };
 		F51D4C9E1CD98F2200B7456B /* TabBarItemAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F51D4C9D1CD98F2200B7456B /* TabBarItemAnimationUITests.m */; };
+		F5226A5D1CDEDDDE00A6E121 /* TabBarVc.m in Sources */ = {isa = PBXBuildFile; fileRef = F5226A5C1CDEDDDE00A6E121 /* TabBarVc.m */; };
+		F5226A601CDEE04000A6E121 /* FirstVc.m in Sources */ = {isa = PBXBuildFile; fileRef = F5226A5F1CDEE04000A6E121 /* FirstVc.m */; };
+		F5226A631CDEE04D00A6E121 /* SecondVc.m in Sources */ = {isa = PBXBuildFile; fileRef = F5226A621CDEE04D00A6E121 /* SecondVc.m */; };
+		F5226A661CDEE06200A6E121 /* ThirdVc.m in Sources */ = {isa = PBXBuildFile; fileRef = F5226A651CDEE06200A6E121 /* ThirdVc.m */; };
+		F5226A691CDEE07600A6E121 /* FourthVc.m in Sources */ = {isa = PBXBuildFile; fileRef = F5226A681CDEE07600A6E121 /* FourthVc.m */; };
+		F5226A6C1CDEE0EC00A6E121 /* FifthVc.m in Sources */ = {isa = PBXBuildFile; fileRef = F5226A6B1CDEE0EC00A6E121 /* FifthVc.m */; };
+		F5226A781CDF18AD00A6E121 /* NavVc.m in Sources */ = {isa = PBXBuildFile; fileRef = F5226A771CDF18AD00A6E121 /* NavVc.m */; };
+		F5226A7B1CDF1B2F00A6E121 /* TabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F5226A7A1CDF1B2F00A6E121 /* TabBarItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +61,22 @@
 		F51D4C991CD98F2200B7456B /* TabBarItemAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabBarItemAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F51D4C9D1CD98F2200B7456B /* TabBarItemAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarItemAnimationUITests.m; sourceTree = "<group>"; };
 		F51D4C9F1CD98F2200B7456B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5226A5B1CDEDDDE00A6E121 /* TabBarVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarVc.h; sourceTree = "<group>"; };
+		F5226A5C1CDEDDDE00A6E121 /* TabBarVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarVc.m; sourceTree = "<group>"; };
+		F5226A5E1CDEE04000A6E121 /* FirstVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstVc.h; sourceTree = "<group>"; };
+		F5226A5F1CDEE04000A6E121 /* FirstVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstVc.m; sourceTree = "<group>"; };
+		F5226A611CDEE04D00A6E121 /* SecondVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondVc.h; sourceTree = "<group>"; };
+		F5226A621CDEE04D00A6E121 /* SecondVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondVc.m; sourceTree = "<group>"; };
+		F5226A641CDEE06200A6E121 /* ThirdVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdVc.h; sourceTree = "<group>"; };
+		F5226A651CDEE06200A6E121 /* ThirdVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdVc.m; sourceTree = "<group>"; };
+		F5226A671CDEE07600A6E121 /* FourthVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthVc.h; sourceTree = "<group>"; };
+		F5226A681CDEE07600A6E121 /* FourthVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthVc.m; sourceTree = "<group>"; };
+		F5226A6A1CDEE0EC00A6E121 /* FifthVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FifthVc.h; sourceTree = "<group>"; };
+		F5226A6B1CDEE0EC00A6E121 /* FifthVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FifthVc.m; sourceTree = "<group>"; };
+		F5226A761CDF18AD00A6E121 /* NavVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavVc.h; sourceTree = "<group>"; };
+		F5226A771CDF18AD00A6E121 /* NavVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavVc.m; sourceTree = "<group>"; };
+		F5226A791CDF1B2F00A6E121 /* TabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarItem.h; sourceTree = "<group>"; };
+		F5226A7A1CDF1B2F00A6E121 /* TabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +131,22 @@
 				F51D4C791CD98F2100B7456B /* AppDelegate.m */,
 				F51D4C7B1CD98F2100B7456B /* ViewController.h */,
 				F51D4C7C1CD98F2100B7456B /* ViewController.m */,
+				F5226A5B1CDEDDDE00A6E121 /* TabBarVc.h */,
+				F5226A5C1CDEDDDE00A6E121 /* TabBarVc.m */,
+				F5226A791CDF1B2F00A6E121 /* TabBarItem.h */,
+				F5226A7A1CDF1B2F00A6E121 /* TabBarItem.m */,
+				F5226A761CDF18AD00A6E121 /* NavVc.h */,
+				F5226A771CDF18AD00A6E121 /* NavVc.m */,
+				F5226A5E1CDEE04000A6E121 /* FirstVc.h */,
+				F5226A5F1CDEE04000A6E121 /* FirstVc.m */,
+				F5226A611CDEE04D00A6E121 /* SecondVc.h */,
+				F5226A621CDEE04D00A6E121 /* SecondVc.m */,
+				F5226A641CDEE06200A6E121 /* ThirdVc.h */,
+				F5226A651CDEE06200A6E121 /* ThirdVc.m */,
+				F5226A671CDEE07600A6E121 /* FourthVc.h */,
+				F5226A681CDEE07600A6E121 /* FourthVc.m */,
+				F5226A6A1CDEE0EC00A6E121 /* FifthVc.h */,
+				F5226A6B1CDEE0EC00A6E121 /* FifthVc.m */,
 				F51D4C7E1CD98F2100B7456B /* Main.storyboard */,
 				F51D4C841CD98F2100B7456B /* Assets.xcassets */,
 				F51D4C861CD98F2100B7456B /* LaunchScreen.storyboard */,
@@ -273,9 +313,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5226A661CDEE06200A6E121 /* ThirdVc.m in Sources */,
+				F5226A781CDF18AD00A6E121 /* NavVc.m in Sources */,
 				F51D4C7D1CD98F2100B7456B /* ViewController.m in Sources */,
+				F5226A601CDEE04000A6E121 /* FirstVc.m in Sources */,
 				F51D4C7A1CD98F2100B7456B /* AppDelegate.m in Sources */,
+				F5226A631CDEE04D00A6E121 /* SecondVc.m in Sources */,
 				F51D4C831CD98F2100B7456B /* TabBarItemAnimation.xcdatamodeld in Sources */,
+				F5226A5D1CDEDDDE00A6E121 /* TabBarVc.m in Sources */,
+				F5226A691CDEE07600A6E121 /* FourthVc.m in Sources */,
+				F5226A6C1CDEE0EC00A6E121 /* FifthVc.m in Sources */,
+				F5226A7B1CDF1B2F00A6E121 /* TabBarItem.m in Sources */,
 				F51D4C771CD98F2100B7456B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -502,6 +550,7 @@
 				F51D4CA41CD98F2200B7456B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F51D4CA51CD98F2200B7456B /* Build configuration list for PBXNativeTarget "TabBarItemAnimationTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +559,7 @@
 				F51D4CA71CD98F2200B7456B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F51D4CA81CD98F2200B7456B /* Build configuration list for PBXNativeTarget "TabBarItemAnimationUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +568,7 @@
 				F51D4CAA1CD98F2200B7456B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -10,7 +10,7 @@
 typedef NS_ENUM(NSInteger, STATE) {
     NONMARK,
     Mark,
-} ;
+};
 
 @interface JumpStarView : UIView
 - (void)animate;

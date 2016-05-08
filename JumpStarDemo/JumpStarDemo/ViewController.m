@@ -7,21 +7,23 @@
 //
 
 #import "ViewController.h"
+#import "JumpStarView.h"
 
 @interface ViewController ()
-
+@property (nonatomic, weak) IBOutlet JumpStarView *jumpStarView;
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    [_jumpStarView layoutIfNeeded];
+    _jumpStarView.markedImage = [UIImage imageNamed:@"icon_star_incell"];
+    _jumpStarView.non_markedImage = [UIImage imageNamed:@"blue_dot"];
+    _jumpStarView.state = NONMARK;
 }
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)tapped:(id)sender {
+    [_jumpStarView animate];
 }
-
 @end
