@@ -24,6 +24,7 @@
 		F5226A6C1CDEE0EC00A6E121 /* FifthVc.m in Sources */ = {isa = PBXBuildFile; fileRef = F5226A6B1CDEE0EC00A6E121 /* FifthVc.m */; };
 		F5226A781CDF18AD00A6E121 /* NavVc.m in Sources */ = {isa = PBXBuildFile; fileRef = F5226A771CDF18AD00A6E121 /* NavVc.m */; };
 		F5226A7B1CDF1B2F00A6E121 /* TabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F5226A7A1CDF1B2F00A6E121 /* TabBarItem.m */; };
+		F53533D01CE04A1C00E79155 /* UIView+KGViewExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = F53533CF1CE04A1B00E79155 /* UIView+KGViewExtend.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,8 @@
 		F5226A771CDF18AD00A6E121 /* NavVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavVc.m; sourceTree = "<group>"; };
 		F5226A791CDF1B2F00A6E121 /* TabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarItem.h; sourceTree = "<group>"; };
 		F5226A7A1CDF1B2F00A6E121 /* TabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarItem.m; sourceTree = "<group>"; };
+		F53533CE1CE04A1B00E79155 /* UIView+KGViewExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+KGViewExtend.h"; sourceTree = "<group>"; };
+		F53533CF1CE04A1B00E79155 /* UIView+KGViewExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+KGViewExtend.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +138,8 @@
 				F5226A5C1CDEDDDE00A6E121 /* TabBarVc.m */,
 				F5226A791CDF1B2F00A6E121 /* TabBarItem.h */,
 				F5226A7A1CDF1B2F00A6E121 /* TabBarItem.m */,
+				F53533CE1CE04A1B00E79155 /* UIView+KGViewExtend.h */,
+				F53533CF1CE04A1B00E79155 /* UIView+KGViewExtend.m */,
 				F5226A761CDF18AD00A6E121 /* NavVc.h */,
 				F5226A771CDF18AD00A6E121 /* NavVc.m */,
 				F5226A5E1CDEE04000A6E121 /* FirstVc.h */,
@@ -322,6 +327,7 @@
 				F51D4C831CD98F2100B7456B /* TabBarItemAnimation.xcdatamodeld in Sources */,
 				F5226A5D1CDEDDDE00A6E121 /* TabBarVc.m in Sources */,
 				F5226A691CDEE07600A6E121 /* FourthVc.m in Sources */,
+				F53533D01CE04A1C00E79155 /* UIView+KGViewExtend.m in Sources */,
 				F5226A6C1CDEE0EC00A6E121 /* FifthVc.m in Sources */,
 				F5226A7B1CDF1B2F00A6E121 /* TabBarItem.m in Sources */,
 				F51D4C771CD98F2100B7456B /* main.m in Sources */,

@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F56398971CE47DF600D185A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F56398961CE47DF600D185A4 /* main.m */; };
+		F563989A1CE47DF600D185A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F56398991CE47DF600D185A4 /* AppDelegate.m */; };
+		F563989D1CE47DF600D185A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F563989C1CE47DF600D185A4 /* ViewController.m */; };
+		F56398A01CE47DF600D185A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F563989E1CE47DF600D185A4 /* Main.storyboard */; };
+		F56398A31CE47DF600D185A4 /* CheckAniamton.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F56398A11CE47DF600D185A4 /* CheckAniamton.xcdatamodeld */; };
+		F56398A51CE47DF600D185A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F56398A41CE47DF600D185A4 /* Assets.xcassets */; };
+		F56398A81CE47DF600D185A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F56398A61CE47DF600D185A4 /* LaunchScreen.storyboard */; };
+		F56398B31CE47DF600D185A4 /* CheckAniamtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F56398B21CE47DF600D185A4 /* CheckAniamtonTests.m */; };
+		F56398BE1CE47DF600D185A4 /* CheckAniamtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F56398BD1CE47DF600D185A4 /* CheckAniamtonUITests.m */; };
+		F56398CD1CE480FD00D185A4 /* DownloadButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F56398CC1CE480FD00D185A4 /* DownloadButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F56398AF1CE47DF600D185A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F563988A1CE47DF600D185A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F56398911CE47DF600D185A4;
+			remoteInfo = CheckAniamton;
+		};
+		F56398BA1CE47DF600D185A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F563988A1CE47DF600D185A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F56398911CE47DF600D185A4;
+			remoteInfo = CheckAniamton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F56398921CE47DF600D185A4 /* CheckAniamton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckAniamton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F56398961CE47DF600D185A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F56398981CE47DF600D185A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F56398991CE47DF600D185A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F563989B1CE47DF600D185A4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F563989C1CE47DF600D185A4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F563989F1CE47DF600D185A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F56398A21CE47DF600D185A4 /* CheckAniamton.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CheckAniamton.xcdatamodel; sourceTree = "<group>"; };
+		F56398A41CE47DF600D185A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F56398A71CE47DF600D185A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F56398A91CE47DF600D185A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F56398AE1CE47DF600D185A4 /* CheckAniamtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckAniamtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F56398B21CE47DF600D185A4 /* CheckAniamtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheckAniamtonTests.m; sourceTree = "<group>"; };
+		F56398B41CE47DF600D185A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F56398B91CE47DF600D185A4 /* CheckAniamtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckAniamtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F56398BD1CE47DF600D185A4 /* CheckAniamtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheckAniamtonUITests.m; sourceTree = "<group>"; };
+		F56398BF1CE47DF600D185A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F56398CB1CE480FD00D185A4 /* DownloadButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadButton.h; sourceTree = "<group>"; };
+		F56398CC1CE480FD00D185A4 /* DownloadButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F563988F1CE47DF600D185A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F56398AB1CE47DF600D185A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F56398B61CE47DF600D185A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F56398891CE47DF600D185A4 = {
+			isa = PBXGroup;
+			children = (
+				F56398941CE47DF600D185A4 /* CheckAniamton */,
+				F56398B11CE47DF600D185A4 /* CheckAniamtonTests */,
+				F56398BC1CE47DF600D185A4 /* CheckAniamtonUITests */,
+				F56398931CE47DF600D185A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F56398931CE47DF600D185A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F56398921CE47DF600D185A4 /* CheckAniamton.app */,
+				F56398AE1CE47DF600D185A4 /* CheckAniamtonTests.xctest */,
+				F56398B91CE47DF600D185A4 /* CheckAniamtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F56398941CE47DF600D185A4 /* CheckAniamton */ = {
+			isa = PBXGroup;
+			children = (
+				F56398981CE47DF600D185A4 /* AppDelegate.h */,
+				F56398991CE47DF600D185A4 /* AppDelegate.m */,
+				F563989B1CE47DF600D185A4 /* ViewController.h */,
+				F563989C1CE47DF600D185A4 /* ViewController.m */,
+				F56398CB1CE480FD00D185A4 /* DownloadButton.h */,
+				F56398CC1CE480FD00D185A4 /* DownloadButton.m */,
+				F563989E1CE47DF600D185A4 /* Main.storyboard */,
+				F56398A41CE47DF600D185A4 /* Assets.xcassets */,
+				F56398A61CE47DF600D185A4 /* LaunchScreen.storyboard */,
+				F56398A91CE47DF600D185A4 /* Info.plist */,
+				F56398A11CE47DF600D185A4 /* CheckAniamton.xcdatamodeld */,
+				F56398951CE47DF600D185A4 /* Supporting Files */,
+			);
+			path = CheckAniamton;
+			sourceTree = "<group>";
+		};
+		F56398951CE47DF600D185A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F56398961CE47DF600D185A4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F56398B11CE47DF600D185A4 /* CheckAniamtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				F56398B21CE47DF600D185A4 /* CheckAniamtonTests.m */,
+				F56398B41CE47DF600D185A4 /* Info.plist */,
+			);
+			path = CheckAniamtonTests;
+			sourceTree = "<group>";
+		};
+		F56398BC1CE47DF600D185A4 /* CheckAniamtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F56398BD1CE47DF600D185A4 /* CheckAniamtonUITests.m */,
+				F56398BF1CE47DF600D185A4 /* Info.plist */,
+			);
+			path = CheckAniamtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F56398911CE47DF600D185A4 /* CheckAniamton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F56398C21CE47DF600D185A4 /* Build configuration list for PBXNativeTarget "CheckAniamton" */;
+			buildPhases = (
+				F563988E1CE47DF600D185A4 /* Sources */,
+				F563988F1CE47DF600D185A4 /* Frameworks */,
+				F56398901CE47DF600D185A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CheckAniamton;
+			productName = CheckAniamton;
+			productReference = F56398921CE47DF600D185A4 /* CheckAniamton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F56398AD1CE47DF600D185A4 /* CheckAniamtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F56398C51CE47DF600D185A4 /* Build configuration list for PBXNativeTarget "CheckAniamtonTests" */;
+			buildPhases = (
+				F56398AA1CE47DF600D185A4 /* Sources */,
+				F56398AB1CE47DF600D185A4 /* Frameworks */,
+				F56398AC1CE47DF600D185A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F56398B01CE47DF600D185A4 /* PBXTargetDependency */,
+			);
+			name = CheckAniamtonTests;
+			productName = CheckAniamtonTests;
+			productReference = F56398AE1CE47DF600D185A4 /* CheckAniamtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F56398B81CE47DF600D185A4 /* CheckAniamtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F56398C81CE47DF600D185A4 /* Build configuration list for PBXNativeTarget "CheckAniamtonUITests" */;
+			buildPhases = (
+				F56398B51CE47DF600D185A4 /* Sources */,
+				F56398B61CE47DF600D185A4 /* Frameworks */,
+				F56398B71CE47DF600D185A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F56398BB1CE47DF600D185A4 /* PBXTargetDependency */,
+			);
+			name = CheckAniamtonUITests;
+			productName = CheckAniamtonUITests;
+			productReference = F56398B91CE47DF600D185A4 /* CheckAniamtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F563988A1CE47DF600D185A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = JsonZhang;
+				TargetAttributes = {
+					F56398911CE47DF600D185A4 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					F56398AD1CE47DF600D185A4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F56398911CE47DF600D185A4;
+					};
+					F56398B81CE47DF600D185A4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F56398911CE47DF600D185A4;
+					};
+				};
+			};
+			buildConfigurationList = F563988D1CE47DF600D185A4 /* Build configuration list for PBXProject "CheckAniamton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F56398891CE47DF600D185A4;
+			productRefGroup = F56398931CE47DF600D185A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F56398911CE47DF600D185A4 /* CheckAniamton */,
+				F56398AD1CE47DF600D185A4 /* CheckAniamtonTests */,
+				F56398B81CE47DF600D185A4 /* CheckAniamtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F56398901CE47DF600D185A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F56398A81CE47DF600D185A4 /* LaunchScreen.storyboard in Resources */,
+				F56398A51CE47DF600D185A4 /* Assets.xcassets in Resources */,
+				F56398A01CE47DF600D185A4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F56398AC1CE47DF600D185A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F56398B71CE47DF600D185A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F563988E1CE47DF600D185A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F563989D1CE47DF600D185A4 /* ViewController.m in Sources */,
+				F563989A1CE47DF600D185A4 /* AppDelegate.m in Sources */,
+				F56398CD1CE480FD00D185A4 /* DownloadButton.m in Sources */,
+				F56398971CE47DF600D185A4 /* main.m in Sources */,
+				F56398A31CE47DF600D185A4 /* CheckAniamton.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F56398AA1CE47DF600D185A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F56398B31CE47DF600D185A4 /* CheckAniamtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F56398B51CE47DF600D185A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F56398BE1CE47DF600D185A4 /* CheckAniamtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F56398B01CE47DF600D185A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F56398911CE47DF600D185A4 /* CheckAniamton */;
+			targetProxy = F56398AF1CE47DF600D185A4 /* PBXContainerItemProxy */;
+		};
+		F56398BB1CE47DF600D185A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F56398911CE47DF600D185A4 /* CheckAniamton */;
+			targetProxy = F56398BA1CE47DF600D185A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F563989E1CE47DF600D185A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F563989F1CE47DF600D185A4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F56398A61CE47DF600D185A4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F56398A71CE47DF600D185A4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F56398C01CE47DF600D185A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F56398C11CE47DF600D185A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F56398C31CE47DF600D185A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CheckAniamton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zdrzdr.github.com.CheckAniamton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F56398C41CE47DF600D185A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CheckAniamton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zdrzdr.github.com.CheckAniamton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F56398C61CE47DF600D185A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CheckAniamtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zdrzdr.github.com.CheckAniamtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CheckAniamton.app/CheckAniamton";
+			};
+			name = Debug;
+		};
+		F56398C71CE47DF600D185A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CheckAniamtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zdrzdr.github.com.CheckAniamtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CheckAniamton.app/CheckAniamton";
+			};
+			name = Release;
+		};
+		F56398C91CE47DF600D185A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CheckAniamtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zdrzdr.github.com.CheckAniamtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CheckAniamton;
+			};
+			name = Debug;
+		};
+		F56398CA1CE47DF600D185A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CheckAniamtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zdrzdr.github.com.CheckAniamtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CheckAniamton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F563988D1CE47DF600D185A4 /* Build configuration list for PBXProject "CheckAniamton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F56398C01CE47DF600D185A4 /* Debug */,
+				F56398C11CE47DF600D185A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F56398C21CE47DF600D185A4 /* Build configuration list for PBXNativeTarget "CheckAniamton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F56398C31CE47DF600D185A4 /* Debug */,
+				F56398C41CE47DF600D185A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F56398C51CE47DF600D185A4 /* Build configuration list for PBXNativeTarget "CheckAniamtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F56398C61CE47DF600D185A4 /* Debug */,
+				F56398C71CE47DF600D185A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F56398C81CE47DF600D185A4 /* Build configuration list for PBXNativeTarget "CheckAniamtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F56398C91CE47DF600D185A4 /* Debug */,
+				F56398CA1CE47DF600D185A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F56398A11CE47DF600D185A4 /* CheckAniamton.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F56398A21CE47DF600D185A4 /* CheckAniamton.xcdatamodel */,
+			);
+			currentVersion = F56398A21CE47DF600D185A4 /* CheckAniamton.xcdatamodel */;
+			path = CheckAniamton.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F563988A1CE47DF600D185A4 /* Project object */;
+}

@@ -13,10 +13,11 @@
 #import "FourthVc.h"
 #import "FifthVc.h"
 #import "NavVc.h"
+#import "TabBarItem.h"
 @interface TabBarVc() <UITabBarControllerDelegate>
 
 @property (nonatomic, assign) NSInteger lastSelected;
-
+@property (nonatomic, assign) TabBarItem *lastSelectedBtn;
 @property (nonatomic, strong) NSArray *selectedImages;//选择的按钮图片
 @property (nonatomic, strong) NSArray *unselectedImages;//未选择的按钮图片
 @property (nonatomic, strong) NSArray *titles;//未选择的标题
@@ -33,11 +34,11 @@
 - (NSArray *)titleVcNameArray
 {
     if (!_titleVcNameArray) {
-        self.titleVcNameArray = @[@{@"首页":[FirstVc new]},
-                                  @{@"投资产品":[SecondVc new]},
-                                  @{@"我的资产":[ThirdVc new]},
-                                  @{@"我要融资":[FourthVc new]},
-                                  @{@"我要融资":[FifthVc new]}];
+        self.titleVcNameArray = @[@{@"热门":[FirstVc new]},
+                                  @{@"U秀":[SecondVc new]},
+                                  @{@"U代":[ThirdVc new]},
+                                  @{@"收藏":[FourthVc new]},
+                                  @{@"我":[FifthVc new]}];
     }
     return _titleVcNameArray;
 }
@@ -123,6 +124,9 @@
 
 
 }
++ (void)injected {
+    NSLog(@"xx");
+}
 #pragma mark - private method
 - (void)setTabBarItemSwitchAnimation {
     if (self.selectedIndex == self.lastSelected) {
@@ -130,7 +134,9 @@
     }
     
     //当前选中的BarItem
-    UIButton *currentBtn = (UIButton *)self.tabBar.subviews[self.selectedIndex+1];
+     TabBarItem *currentBtn = self.customTabBar.subviews[self.selectedIndex];
+   
+    
     UIImageView *currentImageView = currentBtn.subviews[0];
     UILabel *currentLabel = currentBtn.subviews[1];
     
@@ -142,8 +148,8 @@
     CABasicAnimation *currentLabelBasicAnimaton = [CABasicAnimation animationWithKeyPath:@"hidden"];
     currentLabelBasicAnimaton.removedOnCompletion = NO;
     currentLabelBasicAnimaton.fillMode = kCAFillModeForwards;
-    currentLabelBasicAnimaton.fromValue = @YES;
-    currentLabelBasicAnimaton.toValue = @NO;
+    currentLabelBasicAnimaton.fromValue = @NO;
+    currentLabelBasicAnimaton.toValue = @YES;
     currentLabelBasicAnimaton.duration = 0.3;
     [currentLabel.layer addAnimation:currentLabelBasicAnimaton forKey:nil];
     
@@ -174,20 +180,24 @@
     
     
     //上一个选中的BarItem
-    UIButton *lastClickedBtn = (UIButton *)self.tabBar.subviews[self.lastSelected+1];
+    TabBarItem *lastClickedBtn = self.customTabBar.subviews[self.lastSelected];
+    
     UIImageView *lastImageView = lastClickedBtn.subviews[0];
     UILabel *lastLabel = lastClickedBtn.subviews[1];
+    lastLabel.frame = currentLabel.frame;
+     lastClickedBtn.titleLabel.font = [UIFont systemFontOfSize:12];
+    lastLabel.textColor = [UIColor whiteColor];
     
-
     lastLabel.text = self.titles[self.lastSelected];
+    NSLog(@"%@",lastLabel.text);
     self.lastImageView = lastImageView;
     
     //缩小
-    CABasicAnimation *animation1 = [CABasicAnimation animationWithKeyPath:@"transform.scale"];
+    CABasicAnimation *animation1 = [CABasicAnimation animationWithKeyPath:@"hidden"];
     animation1.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
-    animation1.fromValue = @NO;
+    animation1.fromValue = @YES;
     
-    animation1.toValue = @YES;
+    animation1.toValue = @NO;
     animation1.duration = 0.3;
     animation1.removedOnCompletion = NO;
     animation1.fillMode = kCAFillModeForwards;
@@ -226,41 +236,44 @@
     _customTabBar.backgroundColor = [UIColor grayColor];
     _customTabBar.userInteractionEnabled = YES;
     _customTabBar.alpha = 0.8;
+    self.tabBar.userInteractionEnabled = YES;
     [self.tabBar addSubview:_customTabBar];
 }
 -(void)createCustomTabBarItem
 {   // NSArray * titleArr = @[@"限免",@"降价",@"免费",@"专题",@"热榜"];
-    NSArray * imageArr = @[@"tabbar_limitfree",
-                           @"tabbar_reduceprice",
-                           @"tabbar_appfree",
-                           @"tabbar_subject",
-                           @"tabbar_rank"];
-    NSArray * selectImageArr =@[@"tabbar_limitfree_press",
-                                @"tabbar_reduceprice_press",
-                                @"tabbar_appfree_press",
-                                @"tabbar_subject_press",
-                                @"tabbar_rank_press"];
-//    _itemCount = titleArr.count;
+    
+
     CGFloat ItemWidth = self.tabBar.frame.size.width/self.titleVcNameArray.count;
     CGFloat ItemHeight = self.tabBar.frame.size.height;
     for (int i = 0; i<5 ;i++)
     {
-        UIButton * item = [UIButton buttonWithType:UIButtonTypeCustom];
+        TabBarItem * item = [TabBarItem buttonWithType:UIButtonTypeCustom];
         item.frame = CGRectMake(0+i * ItemWidth,self.tabBar.bounds.origin.y, ItemWidth, ItemHeight);
-        [item setTitle:[self.titleVcNameArray[i] allKeys][0] forState:UIControlStateNormal];
+       
+        item.titleLabel.font = [UIFont systemFontOfSize:12];
         [item setImage:[UIImage imageNamed:self.unselectedImages[i]] forState:UIControlStateNormal];
-        [item setImage:[UIImage imageNamed:self.selectedImages[i]] forState:UIControlStateSelected];
+        [item setImage:[UIImage imageNamed:self.unselectedImages[i]] forState:UIControlStateSelected];
         if (i==0) {
             item.selected = YES;
+            item.titleLabel.textColor = [UIColor clearColor];
+            item.imageView.center = item.center;
+        }
+        else
+        {
+            [item setTitle:[self.titleVcNameArray[i] allKeys][0] forState:UIControlStateNormal];
         }
         item.tag = 100+i;
         [item addTarget:self action:@selector(selectItem:) forControlEvents:UIControlEventTouchUpInside];
         [_customTabBar addSubview:item];
     }
+//    [self setTabBarItemSwitchAnimation];
 }
--(void)selectItem:(UIButton *)item
+-(void)selectItem:(TabBarItem *)item
 {
-    for (UIButton * item in _customTabBar.subviews) {
+    for (TabBarItem * item in _customTabBar.subviews) {
+        if (item.selected) {
+            self.lastSelectedBtn = item;
+        }
         item.selected = NO;
     }
     item.selected = YES;
@@ -271,7 +284,7 @@
     [super viewDidLoad];
     
     
-//    self.delegate = self;
+    self.delegate = self;
     
 //    self.tabBar.hidden = YES;
     
