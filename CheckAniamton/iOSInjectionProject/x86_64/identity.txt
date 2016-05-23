@@ -1,0 +1,2 @@
+/Users/json/Library/Developer/Xcode/DerivedData/CheckAniamton-fdmddqiihlfzycdphtxhedffrgrj/Build/Products/Debug-iphonesimulator/CheckAniamton.app
+

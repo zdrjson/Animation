@@ -20,8 +20,8 @@
 -(void)layoutSubviews
 {
     [super layoutSubviews];
-    self.imageView.backgroundColor = [UIColor redColor];
-    self.titleLabel.backgroundColor = [UIColor greenColor];
+//    self.imageView.backgroundColor = [UIColor redColor];
+//    self.titleLabel.backgroundColor = [UIColor greenColor];
     //如果仅仅是调整按钮内部titleLabel的imageView的位置，那么在layoutSubviews中单独设置位置即可
     if (self.currentTitle) {
         NSLog(@"%@",self.currentTitle);

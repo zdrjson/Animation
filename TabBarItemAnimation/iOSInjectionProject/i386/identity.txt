@@ -1,0 +1,2 @@
+/Users/json/Library/Developer/Xcode/DerivedData/TabBarItemAnimation-ghtkrphhyedvkrfkieqkwdgkqeei/Build/Products/Debug-iphonesimulator/TabBarItemAnimation.app
+
