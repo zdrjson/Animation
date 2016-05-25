@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F51D61581CF534C0002D6C8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F51D61571CF534C0002D6C8F /* main.m */; };
+		F51D615B1CF534C0002D6C8F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F51D615A1CF534C0002D6C8F /* AppDelegate.m */; };
+		F51D615E1CF534C0002D6C8F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F51D615D1CF534C0002D6C8F /* ViewController.m */; };
+		F51D61611CF534C0002D6C8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F51D615F1CF534C0002D6C8F /* Main.storyboard */; };
+		F51D61641CF534C0002D6C8F /* TinderRippleAnimation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F51D61621CF534C0002D6C8F /* TinderRippleAnimation.xcdatamodeld */; };
+		F51D61661CF534C0002D6C8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F51D61651CF534C0002D6C8F /* Assets.xcassets */; };
+		F51D61691CF534C0002D6C8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F51D61671CF534C0002D6C8F /* LaunchScreen.storyboard */; };
+		F51D61741CF534C0002D6C8F /* TinderRippleAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F51D61731CF534C0002D6C8F /* TinderRippleAnimationTests.m */; };
+		F51D617F1CF534C0002D6C8F /* TinderRippleAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F51D617E1CF534C0002D6C8F /* TinderRippleAnimationUITests.m */; };
+		F51D618F1CF53686002D6C8F /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = F51D618E1CF53686002D6C8F /* 2.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F51D61701CF534C0002D6C8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F51D614B1CF534C0002D6C8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F51D61521CF534C0002D6C8F;
+			remoteInfo = TinderRippleAnimation;
+		};
+		F51D617B1CF534C0002D6C8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F51D614B1CF534C0002D6C8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F51D61521CF534C0002D6C8F;
+			remoteInfo = TinderRippleAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F51D61531CF534C0002D6C8F /* TinderRippleAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinderRippleAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F51D61571CF534C0002D6C8F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F51D61591CF534C0002D6C8F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F51D615A1CF534C0002D6C8F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F51D615C1CF534C0002D6C8F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F51D615D1CF534C0002D6C8F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F51D61601CF534C0002D6C8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F51D61631CF534C0002D6C8F /* TinderRippleAnimation.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TinderRippleAnimation.xcdatamodel; sourceTree = "<group>"; };
+		F51D61651CF534C0002D6C8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F51D61681CF534C0002D6C8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F51D616A1CF534C0002D6C8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F51D616F1CF534C0002D6C8F /* TinderRippleAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinderRippleAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F51D61731CF534C0002D6C8F /* TinderRippleAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TinderRippleAnimationTests.m; sourceTree = "<group>"; };
+		F51D61751CF534C0002D6C8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F51D617A1CF534C0002D6C8F /* TinderRippleAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinderRippleAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F51D617E1CF534C0002D6C8F /* TinderRippleAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TinderRippleAnimationUITests.m; sourceTree = "<group>"; };
+		F51D61801CF534C0002D6C8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F51D618E1CF53686002D6C8F /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F51D61501CF534C0002D6C8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F51D616C1CF534C0002D6C8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F51D61771CF534C0002D6C8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F51D614A1CF534C0002D6C8F = {
+			isa = PBXGroup;
+			children = (
+				F51D61551CF534C0002D6C8F /* TinderRippleAnimation */,
+				F51D61721CF534C0002D6C8F /* TinderRippleAnimationTests */,
+				F51D617D1CF534C0002D6C8F /* TinderRippleAnimationUITests */,
+				F51D61541CF534C0002D6C8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F51D61541CF534C0002D6C8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F51D61531CF534C0002D6C8F /* TinderRippleAnimation.app */,
+				F51D616F1CF534C0002D6C8F /* TinderRippleAnimationTests.xctest */,
+				F51D617A1CF534C0002D6C8F /* TinderRippleAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F51D61551CF534C0002D6C8F /* TinderRippleAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				F51D61591CF534C0002D6C8F /* AppDelegate.h */,
+				F51D615A1CF534C0002D6C8F /* AppDelegate.m */,
+				F51D615C1CF534C0002D6C8F /* ViewController.h */,
+				F51D615D1CF534C0002D6C8F /* ViewController.m */,
+				F51D618E1CF53686002D6C8F /* 2.png */,
+				F51D615F1CF534C0002D6C8F /* Main.storyboard */,
+				F51D61651CF534C0002D6C8F /* Assets.xcassets */,
+				F51D61671CF534C0002D6C8F /* LaunchScreen.storyboard */,
+				F51D616A1CF534C0002D6C8F /* Info.plist */,
+				F51D61621CF534C0002D6C8F /* TinderRippleAnimation.xcdatamodeld */,
+				F51D61561CF534C0002D6C8F /* Supporting Files */,
+			);
+			path = TinderRippleAnimation;
+			sourceTree = "<group>";
+		};
+		F51D61561CF534C0002D6C8F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F51D61571CF534C0002D6C8F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F51D61721CF534C0002D6C8F /* TinderRippleAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				F51D61731CF534C0002D6C8F /* TinderRippleAnimationTests.m */,
+				F51D61751CF534C0002D6C8F /* Info.plist */,
+			);
+			path = TinderRippleAnimationTests;
+			sourceTree = "<group>";
+		};
+		F51D617D1CF534C0002D6C8F /* TinderRippleAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F51D617E1CF534C0002D6C8F /* TinderRippleAnimationUITests.m */,
+				F51D61801CF534C0002D6C8F /* Info.plist */,
+			);
+			path = TinderRippleAnimationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F51D61521CF534C0002D6C8F /* TinderRippleAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F51D61831CF534C0002D6C8F /* Build configuration list for PBXNativeTarget "TinderRippleAnimation" */;
+			buildPhases = (
+				F51D614F1CF534C0002D6C8F /* Sources */,
+				F51D61501CF534C0002D6C8F /* Frameworks */,
+				F51D61511CF534C0002D6C8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TinderRippleAnimation;
+			productName = TinderRippleAnimation;
+			productReference = F51D61531CF534C0002D6C8F /* TinderRippleAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F51D616E1CF534C0002D6C8F /* TinderRippleAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F51D61861CF534C0002D6C8F /* Build configuration list for PBXNativeTarget "TinderRippleAnimationTests" */;
+			buildPhases = (
+				F51D616B1CF534C0002D6C8F /* Sources */,
+				F51D616C1CF534C0002D6C8F /* Frameworks */,
+				F51D616D1CF534C0002D6C8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F51D61711CF534C0002D6C8F /* PBXTargetDependency */,
+			);
+			name = TinderRippleAnimationTests;
+			productName = TinderRippleAnimationTests;
+			productReference = F51D616F1CF534C0002D6C8F /* TinderRippleAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F51D61791CF534C0002D6C8F /* TinderRippleAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F51D61891CF534C0002D6C8F /* Build configuration list for PBXNativeTarget "TinderRippleAnimationUITests" */;
+			buildPhases = (
+				F51D61761CF534C0002D6C8F /* Sources */,
+				F51D61771CF534C0002D6C8F /* Frameworks */,
+				F51D61781CF534C0002D6C8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F51D617C1CF534C0002D6C8F /* PBXTargetDependency */,
+			);
+			name = TinderRippleAnimationUITests;
+			productName = TinderRippleAnimationUITests;
+			productReference = F51D617A1CF534C0002D6C8F /* TinderRippleAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F51D614B1CF534C0002D6C8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = JsonZhang;
+				TargetAttributes = {
+					F51D61521CF534C0002D6C8F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					F51D616E1CF534C0002D6C8F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F51D61521CF534C0002D6C8F;
+					};
+					F51D61791CF534C0002D6C8F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F51D61521CF534C0002D6C8F;
+					};
+				};
+			};
+			buildConfigurationList = F51D614E1CF534C0002D6C8F /* Build configuration list for PBXProject "TinderRippleAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F51D614A1CF534C0002D6C8F;
+			productRefGroup = F51D61541CF534C0002D6C8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F51D61521CF534C0002D6C8F /* TinderRippleAnimation */,
+				F51D616E1CF534C0002D6C8F /* TinderRippleAnimationTests */,
+				F51D61791CF534C0002D6C8F /* TinderRippleAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F51D61511CF534C0002D6C8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F51D618F1CF53686002D6C8F /* 2.png in Resources */,
+				F51D61691CF534C0002D6C8F /* LaunchScreen.storyboard in Resources */,
+				F51D61661CF534C0002D6C8F /* Assets.xcassets in Resources */,
+				F51D61611CF534C0002D6C8F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F51D616D1CF534C0002D6C8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F51D61781CF534C0002D6C8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F51D614F1CF534C0002D6C8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F51D61641CF534C0002D6C8F /* TinderRippleAnimation.xcdatamodeld in Sources */,
+				F51D615E1CF534C0002D6C8F /* ViewController.m in Sources */,
+				F51D615B1CF534C0002D6C8F /* AppDelegate.m in Sources */,
+				F51D61581CF534C0002D6C8F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F51D616B1CF534C0002D6C8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F51D61741CF534C0002D6C8F /* TinderRippleAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F51D61761CF534C0002D6C8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F51D617F1CF534C0002D6C8F /* TinderRippleAnimationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F51D61711CF534C0002D6C8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F51D61521CF534C0002D6C8F /* TinderRippleAnimation */;
+			targetProxy = F51D61701CF534C0002D6C8F /* PBXContainerItemProxy */;
+		};
+		F51D617C1CF534C0002D6C8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F51D61521CF534C0002D6C8F /* TinderRippleAnimation */;
+			targetProxy = F51D617B1CF534C0002D6C8F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F51D615F1CF534C0002D6C8F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F51D61601CF534C0002D6C8F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F51D61671CF534C0002D6C8F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F51D61681CF534C0002D6C8F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F51D61811CF534C0002D6C8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F51D61821CF534C0002D6C8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F51D61841CF534C0002D6C8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TinderRippleAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zdrjson.github.com.TinderRippleAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F51D61851CF534C0002D6C8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TinderRippleAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zdrjson.github.com.TinderRippleAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F51D61871CF534C0002D6C8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TinderRippleAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zdrjson.github.com.TinderRippleAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TinderRippleAnimation.app/TinderRippleAnimation";
+			};
+			name = Debug;
+		};
+		F51D61881CF534C0002D6C8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TinderRippleAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zdrjson.github.com.TinderRippleAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TinderRippleAnimation.app/TinderRippleAnimation";
+			};
+			name = Release;
+		};
+		F51D618A1CF534C0002D6C8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TinderRippleAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zdrjson.github.com.TinderRippleAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TinderRippleAnimation;
+			};
+			name = Debug;
+		};
+		F51D618B1CF534C0002D6C8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TinderRippleAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zdrjson.github.com.TinderRippleAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TinderRippleAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F51D614E1CF534C0002D6C8F /* Build configuration list for PBXProject "TinderRippleAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F51D61811CF534C0002D6C8F /* Debug */,
+				F51D61821CF534C0002D6C8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F51D61831CF534C0002D6C8F /* Build configuration list for PBXNativeTarget "TinderRippleAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F51D61841CF534C0002D6C8F /* Debug */,
+				F51D61851CF534C0002D6C8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F51D61861CF534C0002D6C8F /* Build configuration list for PBXNativeTarget "TinderRippleAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F51D61871CF534C0002D6C8F /* Debug */,
+				F51D61881CF534C0002D6C8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F51D61891CF534C0002D6C8F /* Build configuration list for PBXNativeTarget "TinderRippleAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F51D618A1CF534C0002D6C8F /* Debug */,
+				F51D618B1CF534C0002D6C8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F51D61621CF534C0002D6C8F /* TinderRippleAnimation.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F51D61631CF534C0002D6C8F /* TinderRippleAnimation.xcdatamodel */,
+			);
+			currentVersion = F51D61631CF534C0002D6C8F /* TinderRippleAnimation.xcdatamodel */;
+			path = TinderRippleAnimation.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F51D614B1CF534C0002D6C8F /* Project object */;
+}
