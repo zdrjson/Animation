@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+
 static CGFloat const kTextLayerFontSize = 29.0f;
 static CGFloat const kTextLayerSelectedFontSize = 35.0f;
 static CGFloat const kLayerWidth = 300.0f;
@@ -26,8 +27,35 @@ static CGFloat const kAnimationDuration = 5.0f;
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    [self p_initLayers];
+    [self p_addAniamtionForLayers];
 }
-
+-(void)viewWillAppear:(BOOL)animated{
+    
+    [super viewWillAppear:animated];
+    
+    CGPoint center = CGPointMake(roundf(self.view.bounds.size.width / 2), roundf(self.view.bounds.size.height / 4));
+    self.colorTextLayer.position = center;
+    
+    center.y += roundf(self.view.bounds.size.height / 2);
+    self.bottomLayer.position = center;
+}
+#pragma mark - Target-Action
+- (IBAction)onSliderValueChanged:(id)sender{
+    UISlider *slider = (UISlider *)sender;
+    
+    self.colorTextLayer.timeOffset = slider.value;
+    self.maskTextLayer.timeOffset = slider.value;
+    
+    [CATransaction begin];
+    [CATransaction setDisableActions:YES];
+    CGRect rect = self.topLayer.frame;
+    rect.size.width = roundf(self.bottomLayer.frame.size.width * slider.value / kAnimationDuration);
+    self.topLayer.frame = rect;
+    [CATransaction commit];
+    
+}
 - (void)p_initLayers {
     self.colorTextLayer = [CATextLayer layer];
     self.colorTextLayer.string = @"我会整体变色哦";
@@ -36,7 +64,7 @@ static CGFloat const kAnimationDuration = 5.0f;
     [self.view.layer addSublayer:self.colorTextLayer];
     
     self.topLayer = [CALayer layer];
-    self.topLayer.backgroundColor = [UIColor blackColor].CGColor;
+    self.topLayer.backgroundColor = [UIColor blueColor].CGColor;
     self.topLayer.frame = CGRectMake(0, 0, 0, kLayerHeight);
     
     self.bottomLayer = [CALayer layer];
@@ -69,7 +97,20 @@ static CGFloat const kAnimationDuration = 5.0f;
     scaleAnimation.removedOnCompletion = NO;
     scaleAnimation.fromValue = @(kTextLayerFontSize);
     scaleAnimation.toValue = @(kTextLayerSelectedFontSize);
-    scaleAnimation
+    scaleAnimation.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionLinear];
+    
+    CAAnimationGroup *animagionGroup = [CAAnimationGroup animation];
+    animagionGroup.duration = kAnimationDuration;
+    animagionGroup.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionLinear];
+    animagionGroup.fillMode = kCAFillModeForwards;
+    animagionGroup.removedOnCompletion = NO;
+    animagionGroup.animations = @[colorAnimation,scaleAnimation];
+    
+    self.colorTextLayer.speed = 0.0f;
+    [self.colorTextLayer addAnimation:animagionGroup forKey:@"animateColorAndFontSize"];
+    
+    self.maskTextLayer.speed = 0.0f;
+    [self.maskTextLayer addAnimation:scaleAnimation forKey:@"animatieFontSize"];
     
 }
 - (void)p_commonInitTextLayer:(CATextLayer *)textLayer {
