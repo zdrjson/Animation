@@ -47,7 +47,7 @@
     CAAnimationGroup *animation = [CAAnimationGroup animation];
     animation.animations = @[scaleAnimation,alphaAnimation];
     animation.duration = 2;
-    animation.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseOut];
+//    animation.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseOut];
     animation.repeatCount = HUGE_VALF;
     animation.removedOnCompletion = NO;
     [shapeLayer addAnimation:animation forKey:nil];
@@ -70,7 +70,15 @@
     //    imageView.layer.backgroundColor = [UIColor whiteColor].CGColor;
     [self.view addSubview:imageView];
     //    self.view.backgroundColor = [UIColor redColor];
+    scaleAnimation.delegate = self;
     NSLog(@"%@",NSStringFromCGRect(shapeLayer.frame));
 }
-
+- (void)animationDidStart:(CAAnimation *)anim {
+    NSLog(@"%@",self);
+}
+- (void)animationDidStop:(CAAnimation *)anim finished:(BOOL)flag {
+    
+    NSLog(@"%@",self);
+    
+}
 @end
