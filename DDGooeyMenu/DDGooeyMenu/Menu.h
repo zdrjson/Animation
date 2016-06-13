@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "MenuLayer.h"
 @interface Menu : UIView
+
+@property (nonatomic, strong,readonly) MenuLayer *menuLayer;
 
 @end
